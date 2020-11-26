@@ -6,7 +6,11 @@
  */
 void binary_tree_delete(binary_tree_t *tree)
 {
-	if ((*tree).left)
+	if (!tree)
+	{
+		return;
+	}
+
 	{
 		binary_tree_delete((*tree).left);
 	}
