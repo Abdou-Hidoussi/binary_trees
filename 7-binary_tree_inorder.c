@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_inorder - Check if node is a root
+ * binary_tree_inorder - Holberton
  *
  * @tree: Pointer to the tree
  * @func: Pointer to the function
